@@ -1,0 +1,12 @@
+.header__lang-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  min-width: 76px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__lang-links {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+@media screen and (max-width: 400px) {
+  .footer__list {
+    display: block;
+    
+  }
+}
+
