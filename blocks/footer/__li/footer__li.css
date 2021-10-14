@@ -1,0 +1,15 @@
+.footer__li {
+  list-style: none;
+  margin: 0;
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__li {
+    padding-bottom: 32px;
+  }
+
+  .footer__li:last-child {
+      padding-bottom: 0;
+  }
+}
