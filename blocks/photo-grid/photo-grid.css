@@ -33,7 +33,6 @@
   .photo-grid {
     max-width: 288px;
     padding-bottom: 14px;
-    grid-template-columns: repeat(auto-fit, 352px);
     grid-template-rows: repeat(12, auto);
     gap: 12px;
   }

@@ -10,7 +10,6 @@
 @media screen and (max-width: 1056px) {
   .place {
     grid-template-columns: repeat(auto-fit, 440px);
-    align-items: start;
     gap: 48px 32px;
     padding-left: 28px;
     padding-right: 28px;
@@ -20,24 +19,21 @@
 @media screen and (max-width: 980px) {
   .place {
     grid-template-columns: repeat(auto-fit, 340px);
-    align-items: start;
     gap: 48px 28px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 73px;
+    justify-content: center;
   }
 
-  @media screen and (max-width: 980px) {
-    .place:last-of-type .place__paragraph {
-      padding-bottom: 0;
-    }
+  .place:last-of-type .place__paragraph {
+    padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 400px) {
   .place {
     grid-template-columns: repeat(auto-fit, 320px);
-    align-items: start;
     gap: 32px;
     padding: 0;
     padding-top: 50px;
